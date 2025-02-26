@@ -26,6 +26,7 @@ body {
     background-color: black;
     font-family: RB;
     color: white;
+    overflow-x: hidden;
 }
 
 a {
