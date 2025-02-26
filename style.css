@@ -563,6 +563,9 @@ footer {
 
 
 @media (max-width:600px) {
+    body{
+        overflow-x: hidden;
+    }
     .res-nav{
         display: block;
         height: 53vh;
