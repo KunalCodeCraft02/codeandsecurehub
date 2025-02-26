@@ -266,13 +266,14 @@ footer {
 
 @media (max-width:600px) {
     .res-nav{
+         padding: 2vw;
         display: block;
-        height: 53vh;
+        min-height: 53vh;
         width: 50%;
-         position: fixed;
-        z-index: 22;
+        position: fixed;
+        z-index: 25;
         background-color: #FAC921;
-        top: 20%;
+        top: 16%;
         right: -80%;
         color: #000;
         flex-direction: column;
