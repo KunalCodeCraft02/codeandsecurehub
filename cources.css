@@ -269,7 +269,7 @@ footer {
         display: block;
         height: 53vh;
         width: 50%;
-        position: absolute;
+         position: fixed;
         z-index: 22;
         background-color: #FAC921;
         top: 20%;
