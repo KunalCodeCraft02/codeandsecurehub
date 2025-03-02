@@ -54,8 +54,9 @@ ul {
 
 footer {
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 5px 10px;  /* Reduced padding */
+    margin-top: 10px;   /* Reduced margin */
     background: #111;
-    border-radius: 10px;
+    border-radius: 5px; /* Smaller border radius */
+    font-size: 0.9em;
 }
