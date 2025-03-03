@@ -25,14 +25,14 @@ let flag = 0;
 hamburgers.addEventListener("click",function(){
     if(flag == 0){
         gsap.to(resnav,{
-            right:"0%",
+            left:"0%",
             duration:0.3
         })
         flag = 1;
     }
     else{
         gsap.to(resnav,{
-            right:"-80%",
+            left:"-100%",
             duration:0.3
         })
         flag = 0;
