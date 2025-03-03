@@ -563,37 +563,55 @@ footer {
 
 
 @media (max-width:600px) {
-    .res-nav{
-         padding: 2vw;
+   .res-nav{
+        padding: 4vw;
         display: block;
-        min-height: 53vh;
-        width: 50%;
+        min-height: 60vh;
+        width: 100%;
         position: fixed;
         z-index: 25;
-        background-color: #FAC921;
+        background-color: #000;
         top: 16%;
-        right: -80%;
+        left: 0%;
         color: #000;
         flex-direction: column;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         gap: 9vw;
         text-align: center;
-        border-bottom-left-radius: 3.5rem;
+        /* border-bottom-left-radius: 3.5rem; */
+        font-size: 6vw;
     
     }
+    .res-nav a{
+        width: 100%;
+        padding-bottom: 5vw;
+        border-bottom: 1px solid white;
+    }
+    .res-nav div{
+        display: flex;
+        gap: 3vw;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+    }
     .res-nav i{
-        padding: 1vw 1vw; 
-        border-radius: 50%;
-        border: 1px solid;
+        /* padding: 1vw 1vw;  */
+        /* border-radius: 50%; */
+        /* border: 1px solid; */
         color: black;
         font-size: 5vw;
+        color: white;
         
     }
     .res-nav p{
         margin-top: 2vw;
         color: black;
+        color: white;
+        
     }
     .loader img {
         width: 30%;
