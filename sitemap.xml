@@ -29,9 +29,16 @@
         <priority>0.8</priority>
     </url>
 
-    <!-- Privacy Policy -->
+    <!-- Videos / Tutorials Page -->
     <url>
-        <loc>https://codeandsecurehub.com/privacy-policy</loc>
+        <loc>https://codeandsecurehub.com/videos.html</loc>
+        <lastmod>2025-03-03</lastmod>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Terms & Conditions Page -->
+    <url>
+        <loc>https://codeandsecurehub.com/terms.html</loc>
         <lastmod>2025-03-03</lastmod>
         <priority>0.5</priority>
     </url>
