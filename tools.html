@@ -1,98 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="List of ethical hacking tools with download links, GitHub repositories, and descriptions. Secure and powerful cybersecurity tools in one place.">
-    <title>Hacking Tools - Code and Secure Hub</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 20px;
-        }
-        .tool {
-            background: #111;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
-        }
-        .tool h2 {
-            margin: 0 0 10px;
-            color: #ffcc00;
-        }
-        .tool p {
-            margin: 0 0 10px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 15px;
-            background: #ffcc00;
-            color: #000;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .btn:hover {
-            background: #e6b800;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/codeandsecurefevicon.jpg" type="image/x-icon">
+    <title>Tools | Code & Secure Hub</title>
+    <link rel="stylesheet" href="tools.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Hacking Tools Collection</h1>
-        
-        <div class="tool">
-            <h2>Metasploit</h2>
-            <p>A powerful framework for penetration testing, exploit development, and vulnerability testing.</p>
-            <a href="https://github.com/rapid7/metasploit-framework" class="btn" target="_blank">Download</a>
-        </div>
-        
-        <div class="tool">
-            <h2>Wireshark</h2>
-            <p>An open-source packet analyzer used for network analysis and troubleshooting.</p>
-            <a href="https://www.wireshark.org/download.html" class="btn" target="_blank">Download</a>
-        </div>
-        
-        <div class="tool">
-            <h2>John the Ripper</h2>
-            <p>A fast and popular password cracking tool for security auditing.</p>
-            <a href="https://github.com/openwall/john" class="btn" target="_blank">Download</a>
-        </div>
-        
-        <div class="tool">
-            <h2>Burp Suite</h2>
-            <p>A web vulnerability scanner and testing tool used by security professionals.</p>
-            <a href="https://portswigger.net/burp" class="btn" target="_blank">Download</a>
-        </div>
-        
-        <div class="tool">
-            <h2>Aircrack-ng</h2>
-            <p>A complete suite for auditing wireless networks and cracking WEP/WPA keys.</p>
-            <a href="https://github.com/aircrack-ng/aircrack-ng" class="btn" target="_blank">Download</a>
-        </div>
-        
-        <div class="tool">
-            <h2>Nmap</h2>
-            <p>A network scanning tool used for discovering hosts and services on a computer network.</p>
-            <a href="https://nmap.org/download.html" class="btn" target="_blank">Download</a>
-        </div>
-        
+    <div class="res-nav">
+        <a href="./index.html">
+            <div>
+                <!-- <i class="fa-solid fa-house"></i> -->
+                <p>HOME</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </a>
+        <a href="./cources.html">
+            <div>
+                <!-- <i class="fa-solid fa-pen"></i>s -->
+                <p>COURSES</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </a>
+        <a href="mailto:codeandsecurehub@gmail.com">
+            <div>
+                <!-- <i class="fa-solid fa-envelope"></i> -->
+                <p>CONTACT</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </a>
+        <a href="./tools.html">
+            <div>
+                <!-- <i class="fa-solid fa-gear"></i> -->
+                <p>TOOLS</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="./blog.html">
+            <div>
+                <!-- <i class="fa-solid fa-blog"></i> -->
+                <p>BLOG</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </a>
+        <a href="./term.html">
+            <div>
+                <!-- <i class="fa-solid fa-handshake"></i> -->
+                <p>TERMS</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </a>
     </div>
+
+
+    <div class="main">
+        <div id="page1">
+            <nav>
+                <div class="logo">
+                    <img src="./assets/codeandsecurelogo.png" alt="">
+                </div>
+                <div class="links">
+                    <a href="./index.html">HOME</a>
+                    <a href="./about.html">ABOUT</a>
+                    <a href="./cources.html">COURSES</a>
+                    <a href="./tools.html">TOOLS</a>
+                    <!-- <a href="/video.html">TUTORIALS</a> -->
+                    <a href="mailto:codeandsecurehub@gmail.com">BUSINESS QUERY</a>
+                    <!-- <a href="#" class="termly-display-preferences">Consent Preferences</a> -->
+
+                    <div class="hamburgers">
+                        <label class="hamburger">
+                            <input type="checkbox" />
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </label>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+        <div id="page2">
+            <h2>Popular Tools</h2>
+            <div class="container">
+                <div class="tool">
+                    <h2>Zphisher</h2>
+                    <p>
+                        Zphisher is a popular open-source phishing tool that automates the creation of phishing pages
+                        for various online services. It provides over 30 pre-built templates that mimic login pages of
+                        popular websites like Facebook, Google, Instagram, Yahoo, PayPal, Netflix, and more, making it a
+                        powerful tool for conducting phishing attacks.
+                    </p>
+                    <p>
+                    <h3>Key Feature</h3>
+                    <li>Automated Payload Generation: The tool automatically generates phishing URLs and fake login
+                        forms, allowing attackers to launch phishing campaigns without extensive technical knowledge.
+                    </li>
+                    <li>Credential Harvesting: When a victim enters their credentials on the fake login page, Zphisher
+                        captures and stores this information for the attacker.</li>
+                    <li>SSL (HTTPS) Support: The tool allows phishing pages to be created with SSL encryption, making
+                        them look more legitimate and convincing.</li>
+                    <li>Easy Installation & Cross-Platform Support: Zphisher can be installed on Linux and Android (via
+                        Termux), making it accessible for various users.</li>
+                    </p>
+                    <p>
+                        Zphisher is primarily designed for educational and cybersecurity awareness purposes. However,
+                        unauthorized use for malicious activities is illegal and unethical. It is strongly advised to
+                        use this tool only for ethical hacking, security testing, and educational demonstrations.
+                    </p>
+                    <h3 class="installation">Installation</h3>
+                    <div class="toolimg">
+                        <a href="https://github.com/htr-tech/zphisher"><img src="./assets/zphisher.png" alt=""></a>
+                    </div>
+                    <h3 class="step1">Step 1 : Installation</h3>
+                    <div class="installation-steps">
+                        <p>
+                            First, you’ll need to install Zphisher by following these commands in your terminal:
+                        </p>
+                        <div class="command">
+                            <span>git clone https://github.com/htr-tech/zphisher.git</span>
+                        </div>
+                        <div class="step1-img">
+                            <img src="./assets/step1.png" alt="">
+                        </div>
+                        <div class="command">
+                            <span>bash zphisher.sh</span>
+                        </div>
+                        <div class="step2-img">
+                            <img src="./assets/step2.png" alt="">
+                        </div>
+                        <p class="step2-p">
+                            The installation script will handle setting up the necessary dependencies for Zphisher.
+                        </p>
+                        <h3 class="step2">Step 2: Launching Zphisher</h3>
+                        <p>
+                            Once installed, launch Zphisher by running the following command in the terminal:
+                        </p>
+                        <div class="command">
+                            <span>./zphisher.sh</span>
+                        </div>
+                        <p class="step2-p">
+                            This will start the Zphisher tool and present you with a menu of options.
+                        </p>
+                        <h3 class="step3">Step 3: Selecting a Target Template</h3>
+                        <p>
+                            Zphisher provides a variety of phishing page templates. Choose a template by entering its
+                            corresponding number from the menu
+                        </p>
+                        <div class="step3-img">
+                            <img src="./assets/step3.png" alt="">
+                        </div>
+                        <h3 class="step4">Step 4: Setting Up the Phishing Page</h3>
+                        <p>
+                            Choose one of the following phishing page
+                        </p>
+                        <div class="step4-img">
+                            <img src="./assets/step4.png" alt="">
+                        </div>
+                        <p class="step2-p">
+                            then select cloudflare tunnel to generate link
+                        </p>
+                        <div class="step5-img">
+                            <img src="./assets/step5.png" alt="">
+                        </div>
+                        <h3 class="step5">Step 5: Sending Phishing Links</h3>
+                        <p>
+                            Zphisher will generate a phishing link based on the selected template and customization. Share this link with your targets through email, messaging apps, or other communication channels and wait for logins to appear on your screen. Utilize a bit of social engineering if you want to get more credentials.
+                        </p>
+                        <div class="step6-img">
+                            <img src="./assets/step6.png" alt="">
+                        </div>
+                        <h3 class="step6">Step 6: Collecting Credentials</h3>
+                        <p>
+                            Monitor the Zphisher console for captured credentials and other relevant data in real-time as targets interact with the phishing link.  
+                        </p>
+                        <div class="step7-img">
+                            <img src="./assets/step7.png" alt="">
+                        </div>
+                        <p class="lasttext">
+                            After simulating the phishing attempt, you’ve now seen how simple victims can fall for this type of cybersecurity attack. Document the different ways the attack is spread, what ways one can quickly identify and report the attack, and share that knowledge(awareness) with your friends to make sure they never fall victim of such attempts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page5">
+            <footer>
+                <div class="footbox footbox1">
+                    <img src="./assets/codeandsecurelogo.png" alt="">
+                    <p>
+                        With a strong community of 100K+ followers on Instagram and 1.5K+ subscribers on YouTube, we are dedicated to educating and empowering ethical hackers, cybersecurity enthusiasts, and tech professionals. We provide high-quality ethical hacking courses, tools, and a thriving community to help you learn, practice, and master cybersecurity skills. Disclaimer: All content on this website is for educational purposes only. We do not promote or support any illegal activities. Users are responsible for applying the information ethically and legally
+                    </p>
+                    <div class="footicon">
+                        <a href="
+                        https://www.instagram.com/codeandsecure_hub?igsh=b2VrNjh4YWdnZmp3"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/12DhS3Ap466/"><i class="fa-brands fa-facebook"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/kunal-bodkhe-269283289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://t.me/+4a1-0fJ7lJFiZDVl"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footbox footbox2">
+                    <h4>Important links</h4>
+                    <div class="footlinks">
+                        <a href="./index.html">
+                            <h4>HOME</h4>
+                        </a>
+                        <a href="./cources.html">
+                            <h4>COURSES</h4>
+                        </a>
+                        <a href="mailto:codeandsecurehub@gmail.com">
+                            <h4>QUERY</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="footbox footbox3">
+                    <h4>Contact</h4>
+                    <div class="contactbox">
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i>Maharashtra, India
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-whatsapp"></i>(+91) 9766482763
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-envelope"></i> codeandsecurehub@gmail.com
+                        </p>
+                    </div>
+
+                </div>
+            </footer>
+            <div class="copyright">
+                <span>Copyright © 2025 codeandsecurehub.com - All rights reserved</span>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
-
-

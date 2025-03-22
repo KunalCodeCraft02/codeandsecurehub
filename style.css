@@ -57,6 +57,7 @@ body::-webkit-scrollbar {
 }
 
 nav {
+    /* position: f; */
     height: 20vh;
     width: 100%;
     /* background-color: aqua; */
