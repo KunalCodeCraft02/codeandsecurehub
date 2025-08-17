@@ -656,6 +656,7 @@ nav .links a {
 }
 
 .roadmap-section h1{
+    color:#000;
     font-family: AG;
     font-size: 3vw;
     text-align: center;
@@ -1199,6 +1200,13 @@ a {
         padding: 2vw;
         gap: 2vw;
     }
+    .roadmap-section h1 {
+    font-family: AG;
+    font-size: 9vw;
+    text-align: center;
+    margin-top: 1.5vw;
+    margin-bottom: 5vw;
+}
 
 
     .footer-content {
