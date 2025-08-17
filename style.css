@@ -642,6 +642,44 @@ nav .links a {
 
 }
 
+.roadmap-section{
+    min-height: 40vh;
+    width: 100%;
+    background-color: #26BF26;
+    /* margin-top: 3vw; */
+    border-radius: 1rem;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.roadmap-section h1{
+    font-family: AG;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 1.5vw;
+}
+.roadmap-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap-btn button{
+    color: #000;
+    padding: 0.9vw 3vw;
+    background-color: #fff;
+    margin-top: 1.4vw;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
 
 
 
