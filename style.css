@@ -44,6 +44,24 @@ body::-webkit-scrollbar {
     padding: 2.5vw;
 }
 
+.ad-container {
+  text-align: center;     /* center the ad */
+  margin: 15px auto;      /* small margin top & bottom */
+  padding: 0;             /* remove padding */
+  max-width: 100%;        /* responsive */
+}
+
+#adsterra-banner, 
+#adsterra-banner iframe, 
+#adsterra-banner div {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+
 a {
     text-decoration: none;
     color: black;
